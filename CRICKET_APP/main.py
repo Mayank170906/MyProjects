@@ -26,8 +26,8 @@ class Signup:
 
     def send_otp(self, email):
         otp = random.randint(1000, 9999)
-        FROM_MY = "mayankeducation.17@yahoo.com"
-        MY_PASSWORD = "mnpdkbeyfrmosllo"
+        FROM_MY = "@yahoo.com"
+        MY_PASSWORD = ""
         SUBJ = "OTP FOR CRICY"
         MESSAGE = f"From:{FROM_MY}\nTo:{email}\nSubject:{SUBJ}\n\nThe OTP for verification is {otp}"
 
