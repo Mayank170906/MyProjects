@@ -25,8 +25,8 @@ class Signup:
     def authentication(self):
         otp = random.randint(1000, 9999)
 
-        FROM_MY = "mayankeducation.17@yahoo.com"
-        MY_PASSWORD = "mnpdkbeyfrmosllo"
+        FROM_MY = ".@yahoo.com"
+        MY_PASSWORD = ""
 
         SEND_TO = input("Enter your email\n")
 
